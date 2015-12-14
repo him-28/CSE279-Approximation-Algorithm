@@ -1,7 +1,7 @@
 import threading, random, math, sys, time, Queue
-from a2_functions import *
-from a2_adts import *
-from a2_peers import *
+from a_functions import *
+from a_adts import *
+from a_peers import *
         
 def main():
         random.seed(time.time());

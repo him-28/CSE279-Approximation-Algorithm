@@ -1,7 +1,7 @@
 import threading, random, math, sys, time, Queue
 from copy import deepcopy
-from b_functions import *
-from b_adts import *
+from berkowitz_functions import *
+from berkowitz_adts import *
 
 # The peer that calculates M^x values for x = (2, N)
 class mPeer(threading.Thread):

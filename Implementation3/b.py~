@@ -1,8 +1,8 @@
 import threading, random, math, sys, time, Queue
 import gc
-from b_functions import *
-from b_adts import *
-from b_peers import *
+from berkowitz_functions import *
+from berkowitz_adts import *
+from berkowitz_peers import *
 import getch
 
 def waitForKeyPress():
